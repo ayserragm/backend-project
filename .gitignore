@@ -1,0 +1,30 @@
+# Go binary
+/bin/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+
+# Go mod cache
+/go.sum
+/go.mod
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Build ve test çıktıları
+/build/
+/dist/
+/*.log
+*.tmp
+
+# Environment dosyaları
+.env
+
+# Docker
+docker-compose.override.yml
